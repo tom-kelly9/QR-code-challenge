@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Outfit&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Outfit:wght@700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+
+    .main-background {
+      background-color: hsl(212, 45%, 89%);
+      height: 1000px;
+      position: relative;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      height: 540px;
+      width: 370px;
+      margin: -270px 0px 0px -185px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    img {
+      border-radius: 10px;
+      align-items: center;
+      margin: 20px 15px 10px 15px;
+      height: 320px;
+      width: 320px;
+    }
+
+    h1 {
+      font-size: 25px;
+      font-family: serif;
+      color: hsl(218, 44%, 22%);
+      font-family: 'Libre Baskerville', serif;font-family: 'Outfit', sans-serif;
+      margin: 10px 4px 4px 4px;
+      width: 330px;
+    }
+
+    p {
+      font-size: 15px;
+      font-family: 'Libre Baskerville', serif;
+      font-family: 'Outfit', sans-serif;
+      color:  hsl(220, 15%, 55%);
+      margin: 10px 8px 15px 8px;
+      width: 260px;
+    }
+    
+    .attribution {
+      font-size: 11px;
+      margin: 7px 4px 1px 4px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+  </style>
+</head>
+<body>
+<div class="main-background">
+<div class="container">
+  <div class="qr-code">
+    <img src="./image-qr-code.png" alt="qr code">
+  </div>
+  <h1>Improve your front-end skills by building projects</h1>
+
+  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tom Kelly</a>.
+  </div>
+</div>
+</div>
+</body>
+</html>
